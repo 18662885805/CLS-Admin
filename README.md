@@ -1,4 +1,4 @@
-# Use antd in create-react-app ✨
+# 使用 craco(create-react-app)+antd+redux 搭建的web应用 ✨
 
 [Create React App](https://facebook.github.io/create-react-app/) + [Ant Design](https://ant.design).
 
