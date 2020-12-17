@@ -13,6 +13,7 @@ import Homepage from './view/Homepage'
 import Worker from './view/User/Worker'
 import GoodDetail from './view/User/Detail'
 import ReduxPage from './view/User/ReduxPage'
+import BlackPage from './view/User/Black'
 import { createBrowserHistory,createHashHistory } from 'history';
 import CustomHeader from "./component/CustomHeader";
 import SideBar from "./component/SideBar";
@@ -65,6 +66,7 @@ class App extends React.Component {
                       <Route path='/worker' component={Worker} exact/>
                       <Route path='/redux' component={ReduxPage} exact/>
                       <Route path='/good_detail' component={GoodDetail} exact/>
+                      <Route path='/black' component={BlackPage} exact/>
                     </Switch> 
                   </Content>
                   <Footer style={{ textAlign: 'center' }}>CLS-Admin ©2020 Created by JiangMinYu@cls</Footer>
