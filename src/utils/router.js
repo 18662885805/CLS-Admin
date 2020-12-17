@@ -6,7 +6,7 @@ const menu = [
     children:[
       {key:'11',title:'数据列表',link:'/worker'},
       {key:'12',title:'Redux',link:'/redux'},
-      {key:'13',title:'黑名单',link:'/homepage'}
+      {key:'13',title:'黑名单',link:'/black'}
     ]
   },
   {
