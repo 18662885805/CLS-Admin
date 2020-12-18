@@ -35,6 +35,7 @@ const DetailCard = (props) => {
         setGoodsDetail(res)
       }else{
         message.warning('无商品');
+        setGoodsDetail('')
       }
     })
   }
